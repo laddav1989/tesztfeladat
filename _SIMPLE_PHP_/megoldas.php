@@ -1,5 +1,7 @@
 <?php 
 
+header('Content-Type: application/json');
+
 $feladatok=array();
 
 $iter=1;
