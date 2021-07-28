@@ -38,7 +38,7 @@ class TesztFeladatController extends Controller
     public function randomfeladat()
     {
 
-        return response()->json($this->feladatok[rand(0,(sizeof($this->feladatok)-1))]);
+        return response()->json($this->feladatok[rand(1,sizeof($this->feladatok))]);
       
     }
 
