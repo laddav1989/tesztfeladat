@@ -24,7 +24,7 @@ for($i=1;$i<=100;$i++){
 	}
 }
 
-echo json_encode($feladatok[rand(0,(sizeof($feladatok)-1))]);
+echo json_encode($feladatok[rand(0,sizeof($feladatok))]);
 
 
 /*
